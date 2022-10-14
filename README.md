@@ -6,7 +6,7 @@ It will be a trivia game where two players must take turns picking questions, en
 
 This project is designed to have the designer practice using API's, logic loops, and different event Listseners
 
-# requirements
+# Requirements
 
 1. A way to keep track of score
 2. Using the API's for data for the game
@@ -21,3 +21,7 @@ This project is designed to have the designer practice using API's, logic loops,
 3. random boxes are daily double
 4. A way for player to enter name
 
+# Trello and WireFrame
+
+1. https://wireframe.cc/pro/edit/591169
+2. https://trello.com/b/EwEcpZIq/magic-trivia-project
