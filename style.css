@@ -1,16 +1,36 @@
+
+html {
+    height: 100%;
+}
+
 body {
     background: url(https://images5.alphacoders.com/886/886632.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+    height: 100%;
 }
 
 .title {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.score {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    color: whitesmoke;
+}
+
+.scoreTotal {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color: goldenrod;
+
 }
 
 h3 {

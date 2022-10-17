@@ -13,27 +13,55 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=PT+Serif&display=swap" rel="stylesheet">
 </head>
-<header>
-    <img class="title" src="https://fontmeme.com/permalink/221014/b843b48ab58927480351c869eb927ac1.png"/>
-    <!--This ^ is the main title pic-->
-    <h4 class="score">Score<span class="scoreTotal"></span></h4>
-    <!--This^ is where the score will be displayed-->
-</header>
+
 <body>
+    <div class='game'>
+
+
+        <header>
+            <img class="title" src="https://fontmeme.com/permalink/221014/b843b48ab58927480351c869eb927ac1.png"/>
+            <!--This ^ is the main title pic-->
+            
+        </header>
 
 
 
-    <div class="qstnCont">
-        <!--This is where everything will go-->
+        <div class="qstnCont">
+            <!--This is where everything game wise will go-->
+
+        </div>
+
+        <div class="qstBox">
+            <!--This is what each question is boxed in, it will default show the value it is worth-->
+            <div class="qstBoxIn">
+                <!--this this the inside/ the actual meat, the question -->
+                <h3 class="clue"></h3>
+                <!--question plugs in here-->
+                <form>
+                    <input name="answer" type="text"/>
+                    <button type="'submit">Answer</button>
+                </form>
+                <!--the <form> makes this a section for user input and 
+                    allows the input and button to pull from API-->
+                <div class="result">
+                    <!--this will will be what text appears after answer is submitted-->
+                    <p class="correct">Correct!</p>
+                        <!--if right-->
+                    <p class="wrong">I'm sorry, that is Incorrect</p>
+                        <!--if wrong, And...-->
+                    <p class="rightAnswer">
+                        We were looking for <span class="rightAnswerText"></span></p>
+                        <!--this ^ will also show when wrong answer is submitted, will link to JS and API-->
+                </div>
+            </div>
+        </div>
 
     </div>
-
-
-
-        
     
-    
-    
+    <footer>
+        <h4 class="score">Score<span class="scoreTotal"></span></h4>
+            <!--This^ is where the score will be displayed-->
+    </footer>
     
     <script src="script.jss"></script>
 </body>
